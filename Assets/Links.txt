@@ -1,0 +1,9 @@
+https://github.com/micjahn/ZXing.Net
+
+https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.0/manual/cpu-camera-image.html#synchronously-convert-to-grayscale-and-color
+
+https://docs.unity3d.com/ScriptReference/Graphics.Blit.html
+
+https://www.qr-code-generator.com/
+
+https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.2/api/UnityEngine.XR.ARFoundation.ARSession.html
