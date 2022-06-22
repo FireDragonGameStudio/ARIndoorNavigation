@@ -1,0 +1,116 @@
+{
+	"TargetList": [
+		{
+			"Name": "CoffeeMachine",
+			"FloorNumber": 0,
+			"Position": {
+				"x": -4.49,
+				"y": 0.00,
+				"z": -1.99
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "MainEntrance",
+			"FloorNumber": 0,
+			"Position": {
+				"x": -8.38,
+				"y": 0.00,
+				"z": -2.23
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "BedRoom",
+			"FloorNumber": 0,
+			"Position": {
+				"x": -1.01,
+				"y": 0.00,
+				"z": -5.31
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "Kitchen",
+			"FloorNumber": 0,
+			"Position": {
+				"x": -6.57,
+				"y": 0.00,
+				"z": -0.99
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": -90.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "StartPoint",
+			"FloorNumber": 0,
+			"Position": {
+				"x": 0.00,
+				"y": 0.00,
+				"z": 0.00
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "LivingRoom",
+			"FloorNumber": 0,
+			"Position": {
+				"x": 0.00,
+				"y": 0.00,
+				"z": 0.00
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 180.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "ExtraRoom",
+			"FloorNumber": 1,
+			"Position": {
+				"x": -5.68,
+				"y": 0.00,
+				"z": -5.67
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		},
+		{
+			"Name": "SecondMainEntrance",
+			"FloorNumber": 1,
+			"Position": {
+				"x": -8.15,
+				"y": 0.00,
+				"z": -0.48
+			},
+			"Rotation": {
+				"x": 0.0,
+				"y": 0.0,
+				"z": 0.0
+			}
+		}
+	]
+}

@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
@@ -14,16 +13,13 @@ public class QrCodeRecenter : MonoBehaviour {
     [SerializeField]
     private ARCameraManager cameraManager;
     [SerializeField]
-    private List<Target> navigationTargetObjects = new List<Target>();
+    private TargetHandler targetHandler;
+    [SerializeField]
+    private GameObject qrCodeScanningPanel;
 
     private Texture2D cameraImageTexture;
     private IBarcodeReader reader = new BarcodeReader(); // create a barcode reader instance
-
-    private void Update() {
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            SetQrCodeRecenterTarget("LivingRoom");
-        }
-    }
+    private bool scanningEnabled = false;
 
     private void OnEnable() {
         cameraManager.frameReceived += OnCameraFrameReceived;
@@ -35,7 +31,11 @@ public class QrCodeRecenter : MonoBehaviour {
 
     private void OnCameraFrameReceived(ARCameraFrameEventArgs eventArgs) {
 
-        if (!cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image)) {
+        if (!scanningEnabled) {
+            return;
+        }
+
+        if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image)) {
             return;
         }
 
@@ -88,22 +88,28 @@ public class QrCodeRecenter : MonoBehaviour {
         // Do something with the result
         if (result != null) {
             SetQrCodeRecenterTarget(result.Text);
+            ToggleScanning();
         }
     }
 
     private void SetQrCodeRecenterTarget(string targetText) {
-        Target currentTarget = navigationTargetObjects.Find(x => x.Name.ToLower().Equals(targetText.ToLower()));
+        TargetFacade currentTarget = targetHandler.GetCurrentTargetByTargetText(targetText);
         if (currentTarget != null) {
             // Reset position and rotation of ARSession
             session.Reset();
 
             // Add offset for recentering
-            sessionOrigin.transform.position = currentTarget.PositionObject.transform.position;
-            sessionOrigin.transform.rotation = currentTarget.PositionObject.transform.rotation;
+            sessionOrigin.transform.position = currentTarget.transform.position;
+            sessionOrigin.transform.rotation = currentTarget.transform.rotation;
         }
     }
 
     public void ChangeActiveFloor(string floorEntrance) {
         SetQrCodeRecenterTarget(floorEntrance);
+    }
+
+    public void ToggleScanning() {
+        scanningEnabled = !scanningEnabled;
+        qrCodeScanningPanel.SetActive(scanningEnabled);
     }
 }

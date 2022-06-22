@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public class Target {
+public class TargetFacade : MonoBehaviour {
     public string Name;
-    public GameObject PositionObject;
+    public int FloorNumber;
 }
