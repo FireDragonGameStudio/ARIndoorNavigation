@@ -35,7 +35,7 @@ public class QrCodeRecenter : MonoBehaviour {
             return;
         }
 
-        if (cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image)) {
+        if (!cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image)) {
             return;
         }
 
