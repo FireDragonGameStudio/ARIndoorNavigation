@@ -40,8 +40,4 @@ public class PathLineVisualisation : MonoBehaviour {
         line.positionCount = calculatedPathAndOffset.Length;
         line.SetPositions(calculatedPathAndOffset);
     }
-
-    public void ToggleLineVisibility() {
-        line.enabled = !line.enabled;
-    }
 }

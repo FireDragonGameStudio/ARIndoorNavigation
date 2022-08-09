@@ -17,7 +17,6 @@ public class PathArrowVisualisation : MonoBehaviour {
     private float currentDistance;
     private Vector3[] pathOffset;
     private Vector3 nextNavigationPoint = Vector3.zero;
-    private Vector3 calculatedNavigationPointAndOffset = Vector3.zero;
 
     private void Update() {
         path = navigationController.CalculatedPath;
@@ -37,13 +36,7 @@ public class PathArrowVisualisation : MonoBehaviour {
     }
 
     private void SelectNextNavigationPoint() {
-        if (pathOffset.Length >= 3) {
-            nextNavigationPoint = SelectNextNavigationPointWithinDistance();
-        } else if (TargetPositionDistanceMoveOnDistance()) {
-            nextNavigationPoint = pathOffset[1];
-        } else {
-            nextNavigationPoint = navigationController.TargetPosition;
-        }
+        nextNavigationPoint = SelectNextNavigationPointWithinDistance();
     }
 
     private Vector3 SelectNextNavigationPointWithinDistance() {
@@ -53,12 +46,7 @@ public class PathArrowVisualisation : MonoBehaviour {
                 return pathOffset[i];
             }
         }
-        return pathOffset[pathOffset.Length - 1];
-    }
-
-    private bool TargetPositionDistanceMoveOnDistance() {
-        Vector3 destinationVector = new Vector3(navigationController.TargetPosition.x, transform.position.y, navigationController.TargetPosition.z);
-        return Vector3.Distance(transform.position, destinationVector) > moveOnDistance;
+        return navigationController.TargetPosition;
     }
 
     private void AddArrowOffset() {
