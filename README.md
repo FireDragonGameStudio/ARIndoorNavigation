@@ -5,6 +5,9 @@ This is the corresponding github repository for the short tutorial series about 
 Tutorial Videos:
 - Part 1 - https://www.youtube.com/watch?v=fuHFrMZ4q_s
 - Part 2 - https://www.youtube.com/watch?v=C7TNBybSOq0
+- Part 3 - https://www.youtube.com/watch?v=C7TNBybSOq0
+- Part 4 - https://www.youtube.com/watch?v=C7TNBybSOq0
+- Part 5 - https://www.youtube.com/watch?v=C7TNBybSOq0
 
 Indoor Navigation Showcase:
 - https://www.youtube.com/watch?v=IuNs0AeATg0
