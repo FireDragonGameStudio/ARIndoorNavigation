@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleSceneCont.unity
+    path: Assets/Scenes/IndoorNavigation.unity
     guid: f88006bc963ef4049a942a46ef8e1f7f
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a4443e2a28d928f4ab37bcf093a887d7, type: 2}
