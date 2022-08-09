@@ -12,24 +12,33 @@ public class PathLineVisualisation : MonoBehaviour {
     private Slider navigationYOffset;
 
     private NavMeshPath path;
+    private Vector3[] calculatedPathAndOffset;
 
     private void Update() {
         path = navigationController.CalculatedPath;
-        line.positionCount = path.corners.Length;
-        Vector3[] calculatedPathAndOffset = AddLineOffset();
-        line.SetPositions(calculatedPathAndOffset);
+        AddOffsetToPath();
+        AddLineOffset();
+        SetLineRendererPositions();
     }
 
-    private Vector3[] AddLineOffset() {
-        if (navigationYOffset.value == 0) {
-            return path.corners;
-        }
-
-        Vector3[] offsettedLine = new Vector3[path.corners.Length];
+    private void AddOffsetToPath() {
+        calculatedPathAndOffset = new Vector3[path.corners.Length];
         for (int i = 0; i < path.corners.Length; i++) {
-            offsettedLine[i] = path.corners[i] + new Vector3(0, navigationYOffset.value, 0);
+            calculatedPathAndOffset[i] = new Vector3(path.corners[i].x, transform.position.y, path.corners[i].z);
         }
-        return offsettedLine;
+    }
+
+    private void AddLineOffset() {
+        if (navigationYOffset.value != 0) {
+            for (int i = 0; i < calculatedPathAndOffset.Length; i++) {
+                calculatedPathAndOffset[i] += new Vector3(0, navigationYOffset.value, 0);
+            }
+        }
+    }
+
+    private void SetLineRendererPositions() {
+        line.positionCount = calculatedPathAndOffset.Length;
+        line.SetPositions(calculatedPathAndOffset);
     }
 
     public void ToggleLineVisibility() {
