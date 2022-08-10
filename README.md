@@ -7,7 +7,7 @@ Tutorial Videos:
 - Part 2 - https://www.youtube.com/watch?v=C7TNBybSOq0
 - Part 3 - https://www.youtube.com/watch?v=w_9LG_D9c0Q
 - Part 4 - https://www.youtube.com/watch?v=uAzPdt7ZZN4
-- Part 5 - https://www.youtube.com/watch?v=C7TNBybSOq0
+- Part 5 - https://www.youtube.com/watch?v=3rPycpxrw-8
 
 Indoor Navigation Showcase:
 - https://www.youtube.com/watch?v=IuNs0AeATg0
