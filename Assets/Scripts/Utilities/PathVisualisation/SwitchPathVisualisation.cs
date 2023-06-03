@@ -7,7 +7,7 @@ public class SwitchPathVisualisation : MonoBehaviour {
     [SerializeField]
     private PathArrowVisualisation arrowLineVis;
 
-    private int visualisationCounter = 0;
+    private int visualisationCounter = 1;
     private GameObject activeVisualisation;
 
     private void Start() {
