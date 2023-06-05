@@ -52,7 +52,7 @@ public class TargetHandler : MonoBehaviour {
     private void FillDropdownWithTargetItems() {
         List<TMP_Dropdown.OptionData> targetFacadeOptionData =
             currentTargetItems.Select(x => new TMP_Dropdown.OptionData {
-                text = $"{x.FloorNumber} - {x.Name}"
+                text = $"{x.Name}"
             }).ToList();
 
         targetDataDropdown.ClearOptions();
