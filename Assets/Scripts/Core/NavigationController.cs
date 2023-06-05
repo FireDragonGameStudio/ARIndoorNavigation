@@ -18,7 +18,7 @@ public class NavigationController : MonoBehaviour {
             NavMesh.CalculatePath(transform.position, TargetPosition, NavMesh.AllAreas, CalculatedPath);
             DestinationPin.SetActive(true);
             DestinationPin.transform.position = TargetPosition;
-            DestinationPin.transform.position = new Vector3(DestinationPin.transform.position.x, DestinationPin.transform.position.y + 0.8f, DestinationPin.transform.position.z);
+            DestinationPin.transform.position = new Vector3(DestinationPin.transform.position.x, DestinationPin.transform.position.y + 1f, DestinationPin.transform.position.z);
             DestinationPin.transform.Rotate(Vector3.up * (5f * Time.deltaTime));
         }
     }
