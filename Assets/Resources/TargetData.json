@@ -1,12 +1,12 @@
 {
   "TargetList": [
     {
-      "Name": "ENTRANCE",
+      "Name": "ENTRANCE/EXIT",
       "FloorNumber": 0,
       "Position": {
-        "x": 1.35,
+        "x": -0.83,
         "y": -1.2,
-        "z": -4.16
+        "z": -5.3
       },
       "Rotation": {
         "x": 0.0,
