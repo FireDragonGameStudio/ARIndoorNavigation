@@ -4,9 +4,9 @@
       "Name": "ENTRANCE/EXIT",
       "FloorNumber": 0,
       "Position": {
-        "x": -0.83,
-        "y": -1.2,
-        "z": -5.3
+        "x": 0.06,
+        "y": -0.82,
+        "z": -4.9
       },
       "Rotation": {
         "x": 0.0,
@@ -18,9 +18,9 @@
       "Name": "ENGR. DR. UDEZE",
       "FloorNumber": 0,
       "Position": {
-        "x": -0.22,
-        "y": -1.2,
-        "z": 0.79
+        "x": -0.19,
+        "y": -0.64,
+        "z": 0.43
       },
       "Rotation": {
         "x": 0.0,
@@ -32,9 +32,9 @@
       "Name": "DR. AHANEKU",
       "FloorNumber": 0,
       "Position": {
-        "x": -4,
-        "y": -1.2,
-        "z": 0.79
+        "x": -3.58,
+        "y": -0.64,
+        "z": 0.43
       },
       "Rotation": {
         "x": 0.0,
@@ -46,9 +46,9 @@
       "Name": "DR CHIJINDU",
       "FloorNumber": 0,
       "Position": {
-        "x": -7.63,
-        "y": -1.2,
-        "z": 0.79
+        "x": -6.92,
+        "y": -0.64,
+        "z": 0.43
       },
       "Rotation": {
         "x": 0.0,
@@ -60,9 +60,9 @@
       "Name": "PROF OPARAKU",
       "FloorNumber": 0,
       "Position": {
-        "x": -11.44,
-        "y": -1.2,
-        "z": 2.67
+        "x": -10.33,
+        "y": -0.64,
+        "z": 1.79
       },
       "Rotation": {
         "x": 0.0,
@@ -74,9 +74,9 @@
       "Name": "ENGR. NATHAN",
       "FloorNumber": 0,
       "Position": {
-        "x": -7.63,
-        "y": -1.2,
-        "z": 2.67
+        "x": -6.92,
+        "y": -0.64,
+        "z": 1.79
       },
       "Rotation": {
         "x": 0.0,
@@ -88,9 +88,9 @@
       "Name": "DR. ILOANUSI",
       "FloorNumber": 0,
       "Position": {
-        "x": -4.0,
-        "y": -1.2,
-        "z": 2.67
+        "x": -3.52,
+        "y": -0.64,
+        "z": 1.79
       },
       "Rotation": {
         "x": 0.0,
@@ -102,9 +102,9 @@
       "Name": "DR. NNOLIM",
       "FloorNumber": 0,
       "Position": {
-        "x": -0.22,
-        "y": -1.2,
-        "z": 2.67
+        "x": -0.1,
+        "y": -0.64,
+        "z": 1.79
       },
       "Rotation": {
         "x": 0.0,
@@ -116,9 +116,9 @@
       "Name": "REV. FR. ANOLIEFO",
       "FloorNumber": 0,
       "Position": {
-        "x": 2.87,
-        "y": -1.2,
-        "z": 0.79
+        "x": 2.74,
+        "y": -0.64,
+        "z": 0.51
       },
       "Rotation": {
         "x": 0.0,
@@ -130,9 +130,9 @@
       "Name": "ENGR OLISA",
       "FloorNumber": 0,
       "Position": {
-        "x": 8.85,
-        "y": -1.2,
-        "z": 0.79
+        "x": 8.25,
+        "y": -0.64,
+        "z": 0.51
       },
       "Rotation": {
         "x": 0.0,
@@ -144,9 +144,9 @@
       "Name": "GENERAL OFFICE",
       "FloorNumber": 0,
       "Position": {
-        "x": 10.38,
-        "y": -1.2,
-        "z": 0.79
+        "x": 9.53,
+        "y": -0.64,
+        "z": 0.51
       },
       "Rotation": {
         "x": 0.0,
@@ -158,9 +158,9 @@
       "Name": "SECRETARY",
       "FloorNumber": 0,
       "Position": {
-        "x": 10.32,
-        "y": -1.2,
-        "z": 2.48
+        "x": 9.53,
+        "y": -0.64,
+        "z": 1.59
       },
       "Rotation": {
         "x": 0.0,
@@ -172,9 +172,9 @@
       "Name": "HOD",
       "FloorNumber": 0,
       "Position": {
-        "x": 2.87,
-        "y": -1.2,
-        "z": 2.67
+        "x": 2.71,
+        "y": -0.64,
+        "z": 1.59
       },
       "Rotation": {
         "x": 0.0,
