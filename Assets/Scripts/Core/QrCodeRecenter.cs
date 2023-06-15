@@ -24,7 +24,7 @@ public class QrCodeRecenter : MonoBehaviour {
     private void OnEnable() {
         cameraManager.frameReceived += OnCameraFrameReceived;
     }
-
+ 
     private void OnDisable() {
         cameraManager.frameReceived -= OnCameraFrameReceived;
     }

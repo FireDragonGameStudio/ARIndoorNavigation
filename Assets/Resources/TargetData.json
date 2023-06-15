@@ -181,6 +181,48 @@
         "y": 0.0,
         "z": 0.0
       }
+    },
+    {
+      "Name": "QRCodeEntrance",
+      "FloorNumber": 0,
+      "Position": {
+        "x": 1.28,
+        "y": 0,
+        "z": -4.15
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Name": "QRCodeRightWing",
+      "FloorNumber": 0,
+      "Position": {
+        "x": 2.12,
+        "y": 0,
+        "z": 1.67
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    },
+    {
+      "Name": "QRCodeLeftWing",
+      "FloorNumber": 0,
+      "Position": {
+        "x": 0.47,
+        "y": 0,
+        "z": 1.67
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
     }
   ]
 }
