@@ -29,10 +29,14 @@ public class PathLineVisualisation : MonoBehaviour {
     }
 
     private void AddLineOffset() {
-        if (navigationYOffset.value != 0) {
-            for (int i = 0; i < calculatedPathAndOffset.Length; i++) {
-                calculatedPathAndOffset[i] += new Vector3(0, navigationYOffset.value, 0);
-            }
+       // if (navigationYOffset.value != 0) {
+         //   for (int i = 0; i < calculatedPathAndOffset.Length; i++) {
+          //      calculatedPathAndOffset[i] += new Vector3(0, navigationYOffset.value, 0);
+          //  }
+       // }
+        for (int i = 0; i < calculatedPathAndOffset.Length; i++)
+        {
+            calculatedPathAndOffset[i] += new Vector3(0, (float)-0.35, 0);
         }
     }
 
