@@ -4,9 +4,9 @@
       "Name": "ENTRANCE/EXIT",
       "FloorNumber": 0,
       "Position": {
-        "x": 0.06,
-        "y": -0.82,
-        "z": -4.9
+        "x": -0.01,
+        "y": 0,
+        "z": -4.72
       },
       "Rotation": {
         "x": 0.0,
@@ -18,9 +18,9 @@
       "Name": "ENGR. DR. UDEZE",
       "FloorNumber": 0,
       "Position": {
-        "x": -0.19,
-        "y": -0.64,
-        "z": 0.43
+        "x": -0.17,
+        "y": -0.55,
+        "z": 0.86
       },
       "Rotation": {
         "x": 0.0,
@@ -32,9 +32,9 @@
       "Name": "DR. AHANEKU",
       "FloorNumber": 0,
       "Position": {
-        "x": -3.58,
-        "y": -0.64,
-        "z": 0.43
+        "x": -3.49,
+        "y": -0.55,
+        "z": 0.86
       },
       "Rotation": {
         "x": 0.0,
@@ -46,9 +46,9 @@
       "Name": "DR CHIJINDU",
       "FloorNumber": 0,
       "Position": {
-        "x": -6.92,
-        "y": -0.64,
-        "z": 0.43
+        "x": -6.81,
+        "y": -0.55,
+        "z": 0.86
       },
       "Rotation": {
         "x": 0.0,
@@ -60,9 +60,9 @@
       "Name": "PROF OPARAKU",
       "FloorNumber": 0,
       "Position": {
-        "x": -10.33,
-        "y": -0.64,
-        "z": 1.79
+        "x": -10.19,
+        "y": -0.55,
+        "z": 2.36
       },
       "Rotation": {
         "x": 0.0,
@@ -74,9 +74,9 @@
       "Name": "ENGR. NATHAN",
       "FloorNumber": 0,
       "Position": {
-        "x": -6.92,
-        "y": -0.64,
-        "z": 1.79
+        "x": -6.81,
+        "y": -0.55,
+        "z": 2.36
       },
       "Rotation": {
         "x": 0.0,
@@ -88,9 +88,9 @@
       "Name": "DR. ILOANUSI",
       "FloorNumber": 0,
       "Position": {
-        "x": -3.52,
-        "y": -0.64,
-        "z": 1.79
+        "x": -3.46,
+        "y": -0.55,
+        "z": 2.36
       },
       "Rotation": {
         "x": 0.0,
@@ -102,9 +102,9 @@
       "Name": "DR. NNOLIM",
       "FloorNumber": 0,
       "Position": {
-        "x": -0.1,
-        "y": -0.64,
-        "z": 1.79
+        "x": -0.15,
+        "y": -0.55,
+        "z": 2.36
       },
       "Rotation": {
         "x": 0.0,
@@ -116,9 +116,9 @@
       "Name": "REV. FR. ANOLIEFO",
       "FloorNumber": 0,
       "Position": {
-        "x": 2.74,
-        "y": -0.64,
-        "z": 0.51
+        "x": 2.64,
+        "y": -0.55,
+        "z": 0.72
       },
       "Rotation": {
         "x": 0.0,
@@ -130,9 +130,9 @@
       "Name": "ENGR OLISA",
       "FloorNumber": 0,
       "Position": {
-        "x": 8.25,
-        "y": -0.64,
-        "z": 0.51
+        "x": 8.1,
+        "y": -0.55,
+        "z": 0.72
       },
       "Rotation": {
         "x": 0.0,
@@ -144,9 +144,9 @@
       "Name": "GENERAL OFFICE",
       "FloorNumber": 0,
       "Position": {
-        "x": 9.53,
-        "y": -0.64,
-        "z": 0.51
+        "x": 9.39,
+        "y": -0.55,
+        "z": 0.72
       },
       "Rotation": {
         "x": 0.0,
@@ -158,9 +158,9 @@
       "Name": "SECRETARY",
       "FloorNumber": 0,
       "Position": {
-        "x": 9.53,
-        "y": -0.64,
-        "z": 1.59
+        "x": 9.39,
+        "y": -0.55,
+        "z": 2.0
       },
       "Rotation": {
         "x": 0.0,
@@ -172,9 +172,9 @@
       "Name": "HOD",
       "FloorNumber": 0,
       "Position": {
-        "x": 2.71,
-        "y": -0.64,
-        "z": 1.59
+        "x": 2.7,
+        "y": -0.55,
+        "z": 2.0
       },
       "Rotation": {
         "x": 0.0,
@@ -186,9 +186,9 @@
       "Name": "QRCodeEntrance",
       "FloorNumber": 0,
       "Position": {
-        "x": 1.28,
+        "x": -0.01,
         "y": 0,
-        "z": -4.15
+        "z": -4.72
       },
       "Rotation": {
         "x": 0.0,
@@ -200,9 +200,9 @@
       "Name": "QRCodeRightWing",
       "FloorNumber": 0,
       "Position": {
-        "x": 2.12,
+        "x": 2.06,
         "y": 0,
-        "z": 1.67
+        "z": 1.85
       },
       "Rotation": {
         "x": 0.0,
@@ -214,9 +214,9 @@
       "Name": "QRCodeLeftWing",
       "FloorNumber": 0,
       "Position": {
-        "x": 0.47,
+        "x": 0.44,
         "y": 0,
-        "z": 1.67
+        "z": 1.85
       },
       "Rotation": {
         "x": 0.0,
