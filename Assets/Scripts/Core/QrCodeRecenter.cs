@@ -1,4 +1,5 @@
 using Unity.Collections;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -9,7 +10,7 @@ public class QrCodeRecenter : MonoBehaviour {
     [SerializeField]
     private ARSession session;
     [SerializeField]
-    private ARSessionOrigin sessionOrigin;
+    private XROrigin sessionOrigin;
     [SerializeField]
     private ARCameraManager cameraManager;
     [SerializeField]
